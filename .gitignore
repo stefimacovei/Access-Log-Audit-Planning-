@@ -1,0 +1,10 @@
+  .venv/
+  __pycache__/
+  *.db
+  *.sqlite
+  .env
+  *.pem
+  *.key
+  data/
+  reports/
+  ground_truth.json

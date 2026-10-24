@@ -1,0 +1,6 @@
+A grant is valid on a day if granted_on <= date <= expires_on. 
+The expiry day is inclusive, so a grant ending on the 13th still covers a query on the 13th.
+Only successful queries are flagged (success = 1) for now. 
+Failed attempts are the open question from earlier, and you can revisit it later.
+The finding says why. no_grant means the user never had a grant for that dataset. 
+expired_or_not_yet_valid means they had one, but the dates don’t cover the query.
