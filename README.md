@@ -142,14 +142,13 @@ Detection against the planted ground truth (seed `[SEED]`, 20,000 log entries):
 | Planted violations | Caught | Missed | False positives |
 |---|---|---|---|
 | [N] | [N] | [N] | [N] |
+ (Work in progress)
 
-False positives are mostly [describe the pattern you actually saw, for example legitimate quarterly exports that triggered the bulk-export rule]. The ground-truth test is in `tests/test_ground_truth.py`.
 
 ## Casebook
 
 `casebook/` holds written-up example cases, one per file, each with who, what, when, the SQL evidence, the policy violated, severity, and the recommended action:
 
-- [list your 5 to 8 case filenames here]
 
 ## Testing
 
@@ -179,6 +178,3 @@ casebook/      written-up example cases
 policies.yaml  roles, sensitivity levels, business hours, row limits, sensitive columns
 ```
 
-## License
-
-[Choose one, for example MIT.]
