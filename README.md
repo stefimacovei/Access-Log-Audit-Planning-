@@ -2,7 +2,7 @@
 
 A Python tool that audits synthetic data-access logs against a written access policy and produces investigation reports. It simulates how a security compliance team reviews who queried sensitive data and whether that access was allowed.
 
-> **All data in this project is synthetic.** Every user, dataset, query, and IP address is generated with Faker. No real data or credentials are used, and none should ever be committed.
+> **this project is a work in progress. it contains the full concept but not all cases have been implemented  yet.
 
 ## The problem it solves
 
