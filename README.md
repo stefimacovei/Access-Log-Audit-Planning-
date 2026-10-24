@@ -40,7 +40,7 @@ flowchart LR
 
 | Table | Columns |
 |---|---|
-| `users` | user_id, name, team, role, manager |
+| `users` | grant_id, user_id, name, team, role, manager |
 | `datasets` | dataset_id, name, sensitivity (PUBLIC, INTERNAL, CONFIDENTIAL, RESTRICTED), owner_team |
 | `access_grants` | user_id, dataset_id, granted_on, expires_on, justification |
 | `query_log` | query_id, user_id, timestamp, dataset_id, sql_text, columns_accessed, rows_returned, source_ip, success |
